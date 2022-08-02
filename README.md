@@ -76,3 +76,5 @@ Info en:   storybook.js.org
 
 Se instalo Matrial-UI:  npm install @mui/material @emotion/react @emotion/styled
 Info en:   https://mui.com/
+
+https://storybook.js.org/docs/react/configure/telemetry
