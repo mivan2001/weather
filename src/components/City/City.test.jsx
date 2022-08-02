@@ -7,7 +7,9 @@ test("City render", async () => {
         //  Arrange
         //  Ejecutar (Actuar)
         const city = "Nuevo León"
+        const cityresp = "Monterrey"
         const country = "México"
+        
         const { findAllByRole } = render(<City City city={city} country={country} />)
         //  Assert
         // findAllByRole nos va a buscar todos los componentes por heading
