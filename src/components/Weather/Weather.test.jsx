@@ -6,7 +6,7 @@ test("Weather render", async () => {
         ///AAA
         const temperatura = "10"
 
-        const { findByRole } = render(<Weather temperature={temperatura} />)
+        const { findByRole } = render(<Weather temperature={temperatura} state="sunny"/>)
 
         const temp = await findByRole("heading")
 
